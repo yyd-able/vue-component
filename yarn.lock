@@ -1796,6 +1796,11 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
+async-validator@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.nlark.com/async-validator/download/async-validator-4.0.2.tgz?cache=0&sync_timestamp=1629167656437&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fasync-validator%2Fdownload%2Fasync-validator-4.0.2.tgz#f8089628ff8a95f7c8c58e1b8d3c3cd9de186996"
+  integrity sha1-+AiWKP+KlffIxY4bjTw82d4YaZY=
+
 async@^2.6.2:
   version "2.6.3"
   resolved "https://registry.nlark.com/async/download/async-2.6.3.tgz?cache=0&sync_timestamp=1628206303171&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fasync%2Fdownload%2Fasync-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
@@ -8143,6 +8148,11 @@ vue-loader@^15.9.2:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-router@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.nlark.com/vue-router/download/vue-router-3.5.2.tgz?cache=0&sync_timestamp=1628495505697&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-router%2Fdownload%2Fvue-router-3.5.2.tgz#5f55e3f251970e36c3e8d88a7cd2d67a350ade5c"
+  integrity sha1-X1Xj8lGXDjbD6NiKfNLWejUK3lw=
 
 vue-style-loader@^4.1.0, vue-style-loader@^4.1.2:
   version "4.1.3"
