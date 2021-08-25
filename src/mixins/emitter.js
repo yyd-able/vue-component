@@ -12,6 +12,7 @@ function boadeCase(componentName, eventName, params) {
 export default {
 	methods: {
 		dispatch(componentName, eventName, params) {
+			console.log(componentName, eventName, params)
 			let parent = this.$parent || this.$root
 			let name = parent.$options.name
 			while (parent && (!name || name !== componentName)) {
@@ -21,6 +22,7 @@ export default {
 				}
 			}
 			if (parent) {
+				console.log(parent)
 				parent.$emit.apply(parent, [eventName].concat(params))
 			}
 		},
